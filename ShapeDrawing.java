@@ -1,14 +1,10 @@
 package Projects.Java_2D_Engine;
 import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
 import java.awt.Color;
 import java.awt.Graphics;
-import java.awt.Graphics2D;
 import java.awt.Image;
-import java.awt.event.*;
-import java.awt.geom.AffineTransform;
 import java.io.File;
 import java.io.IOException;
 
@@ -72,7 +68,6 @@ public class ShapeDrawing extends JPanel {
         }
 
         //Draw Player Here!
-        // g.setTransform(new AffineTransform());
         g.setColor(Color.green);
         g.fillRect(playerPosX, playerPosY, 100, 200);
     }
